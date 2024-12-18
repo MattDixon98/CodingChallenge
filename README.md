@@ -1,9 +1,9 @@
 # Coding Challenge
-By Matt Dixon </br>
-A Python-based solution for processing and analyzing a list of URLs.
+A Python-based solution for processing and analyzing a list of URLs.</br>
+By Matt Dixon
 
 ## Description
-This project provides a Python script that reads a list of URLs from a text file, processes each URL, and outputs the results. It's designed to handle various URL processing tasks efficiently.
+This project provides a Python script that reads a list of URLs from a text file, processes each URL, and outputs a result of additonal hyperlinks on the page. It's designed to handle various URL processing tasks efficiently (and showcase knowledge to my potential employer :slightly_smiling_face:)
 
 ## Table of Contents
   * Installation
@@ -17,7 +17,7 @@ This project provides a Python script that reads a list of URLs from a text file
 git clone https://github.com/MattDixon98/CodingChallenge.git
 cd CodingChallenge
 ```
-2.Create and activate a virtual environment (optional but recommended):
+2. Create and activate a virtual environment (optional but recommended):
 ```
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -28,9 +28,9 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-1.Prepare your list of URLs:
+1. Prepare your list of URLs:
   * Add the URLs you wish to process to the url_list.txt file, with each URL on a new line.
-2.Run the script:
+2. Run the script:
 ```
 python coding_challenge.py
 ```
@@ -39,5 +39,8 @@ python coding_challenge.py
 
 ## Features
   * Reads URLs from a text file.
-  * Processes each URL to extract relevant information.
+  * Processes each URL and extract the markup.
+  * If there are many URLs, they will run concurrently
+  * Creates a list of URLs found on the parent URL page
+  * Several unit tests to validate different cases
   * Outputs results to a designated directory.
