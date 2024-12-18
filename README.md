@@ -9,6 +9,7 @@ This project provides a Python script that reads a list of URLs from a text file
   * Installation
   * Usage
   * Features
+  * Assumptions
 
 ## Installation
 1. Clone the repository:
@@ -44,3 +45,6 @@ python coding_challenge.py
   * Creates a list of URLs found on the parent URL page
   * Several unit tests to validate different cases
   * Outputs results to a designated directory.
+
+## Assumptions
+   * By "This list output against each parsed URL", I inferred that there should be a file for each parsed URL containing the output list. These files were stored in a separate folder
